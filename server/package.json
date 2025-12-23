@@ -1,0 +1,28 @@
+{
+  "name": "family-hub-server",
+  "version": "0.1.0",
+  "description": "Express API for the Family Hub calendar and schedule app",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "lint": "node --check src/index.js"
+  },
+  "keywords": [
+    "express",
+    "google-calendar",
+    "oauth2",
+    "firebase",
+    "family-hub"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "googleapis": "^144.0.0"
+  }
+}
